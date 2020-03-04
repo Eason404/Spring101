@@ -4,8 +4,8 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		// create a new object
-		Coach theCoach = new TrackCoach();
+		// create the object
+		BaseballCoach theCoach = new BaseballCoach();
 		
 		// use the object
 		System.out.println(theCoach.getDailyWorkout());
